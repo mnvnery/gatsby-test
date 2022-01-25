@@ -10,7 +10,7 @@ module.exports = {
         tables: [
           {
             baseId: `appucCQ5OlSqfEOpc`,
-            tableName: `Material`,
+            tableName: `All Products`,
           },
         ],
       },
