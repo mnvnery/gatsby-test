@@ -47,6 +47,7 @@ export default function Products({data}) {
       ))}
     </ul>
     <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
         <input name="name" placeholder="Your Name" type="text"/>
         <input type="email" name="email" placeholder="email@youremail.com" />
         <textarea name="message"></textarea>
